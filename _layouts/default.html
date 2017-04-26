@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title></title>
+  <link rel="stylesheet" href="/css/app.css">
+</head>
+<body>
+  {% for category in site.data.questions %}
+
+    {{category.name}} <br>
+    {% for topic in category.topics %}
+      {{topic.name}} <br>
+
+      {% for question in topic.questions %}
+        {{question.question}} - {{question.answer}} <br>
+      {% endfor %}
+    {% endfor %}
+  {% endfor %}
+
+</body>
+</html>

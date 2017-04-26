@@ -1,0 +1,14 @@
+- name: categoria
+  topics:
+    - name: topico1
+      questions:
+        - question: oi?
+          answer: olar
+        - question: que?
+          answer: vai
+    - name: topico2
+      questions:
+        - question: oiasd asd asda sd ?
+          answer: olarasd a asd
+        - question: q asd fwe sue?
+          answer: vai asd asd
