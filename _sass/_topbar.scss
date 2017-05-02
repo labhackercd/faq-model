@@ -1,0 +1,22 @@
+.topbar {
+  display: flex;
+  flex-direction: column;
+}
+
+.topbar__header {
+  display: flex;
+  background-color: #004432;
+  padding: 0.5em 1em;
+  align-items: center;
+}
+
+.topbar__logo {
+  height: 2.2em;
+  margin-right: 1em;
+}
+
+.topbar__title {
+  color: white;
+  font-weight: 600;
+  text-transform: uppercase;
+}
