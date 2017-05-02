@@ -5,6 +5,10 @@
     width: 860px;
     margin: 0 auto;
   }
+
+  &.hide {
+    display: none;
+  }
 }
 
 .faq__title {

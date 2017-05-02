@@ -1,4 +1,63 @@
-- name: Categoria
+- name: Regime Geral de Previdência Social
+  topics:
+    - name: Direitos Adiquiridos
+      questions:
+        - question: Já tenho idade e tempo de contribuição para aposentadoria. A reforma pode me afetar?
+          answer: >
+            Não. Serão respeitados os direitos já adquiridos, seja para aposentadoria por tempo de contribuição ou para aposentadoria por idade urbana e rural, de acordo com os seguintes critérios:</br></br>
+            Para a aposentadoria por tempo de contribuição: 35 anos de contribuição para os homens e 30 anos de contribuição para as mulheres.</br></br>
+            Para a aposentadoria por idade urbana: 65 anos para os homens e 60 anos para as mulheres, com 15 anos de contribuição.</br></br>
+            Para a aposentadoria por idade rural: 60 anos para os homens e 55 anos para as mulheres, com 15 anos de contribuição ou de atividade rural para os segurados especiais.</br></br>
+        - question: Sou homem, tenho 60 anos e já fechei os 40 anos de contribuição, mas não atingi a idade mínima. Devo continuar contribuindo por mais 5 anos para atingir os 65 anos para ter acesso a aposentadoria?
+          answer: De acordo com legislação atual, o segurado já preenche todos os requisitos para requerer a  aposentadoria por tempo de contribuição (direito adquirido) pela regra do fator previdenciário ou pela  fórmula 85/95, com a aplicação do percentual de 100% sobre a média dos salários de contribuição.
+    - name: Idade Mínima
+      questions:
+        - question: A reforma estabelecerá idade mínima de aposentadoria?
+          answer: Sim. A idade mínima para aposentadoria será de 65 anos, para homens, e 62 anos, para mulheres, com, no mínimo, 25 anos de tempo de contribuição.
+        - question: Com o aumento da expectativa de sobrevida, a idade mínima para aposentadoria será aumentada? Como esse aumento acontecerá? Qual a projeção ao longo dos anos?
+          answer: >
+            A idade mínima aumentará em um ano sempre que houver incremento de um ano inteiro à expectativa de sobrevida da população brasileira aos 65 anos de idade.</br></br>
+            A referência para o incremento ocorre no ano de publicação da Emenda. Supondo que isso ocorra em 2017, segundo as projeções feitas pelo IBGE, a expectativa de sobrevida aos 65 anos para ambos os sexos será de 18,63 anos. Em 2026, essa expectativa de sobrevida está projetada para 19,64 anos, ocasião em que terá sido acrescida em um ano inteiro e assim a idade mínima de aposentadoria passará para 66 anos de idade.</br></br>
+            O segundo aumento da idade mínima ocorrerá pelas projeções populacionais do IBGE somente em 2041, quando a expectativa de sobrevida aos 65 anos para ambos os sexos atingirá 20,65 anos e a idade mínima para a aposentadoria passará para 67 anos de idade. O terceiro aumento deverá levar muito tempo para ocorrer, provavelmente somente depois do ano 2100.</br></br>
+    - name: Cálculo do Benefício
+      questions:
+        - question: Como ficará o valor da aposentadoria?
+          answer: O valor da aposentadoria corresponderá a 70% (setenta por cento) da média dos salários de contribuição.
+        - question: Como ficará o valor da aposentadoria para benefícios concedidos a partir de 25 anos de contribuição?
+          answer: >
+            O valor da aposentadoria corresponderá a 70% (setenta por cento) da média dos salários de contribuição. A partir do 26º ano de contribuição será acrescido 1,5 (um e meio) ponto percentual; do 31º ano de contribuição, 2,0 (dois) pontos percentuais; e do 36º 2,5 (dois e meio) pontos percentuais, para cada ano de contribuição considerado na concessão da aposentadoria, até o limite de 100%.</br></br>
+            O trabalhador com 65 anos de idade e 25 anos de contribuição terá a aposentadoria igual a 70% da média dos salários de contribuição, conforme tabela abaixo:</br></br>
+        - question: E a fórmula de cálculo do salário de benefício?
+          answer: >
+            Na regra geral, o salário de benefício corresponderá à média aritmética simples dos salários de contribuição selecionados na forma da lei. </br></br>
+            Na regra transitória, o salário de benefício corresponderá à média simples de todos os salários de contribuição, depois de julho de 1994.</br></br>
+        - question: Por que o Substitutivo reduz o benefício do trabalhador que se aposentar com 25 anos de contribuição (76% para 70%)?
+          answer: >
+            A Reforma traz mudança na regra de cálculo, que está sendo ajustada para atender aos anseios da sociedade.</br></br>
+            Inicialmente, a proposta do governo, quando do encaminhamento da PEC ao Congresso Nacional, propunha 51% mais 1% por ano de contribuição. O tempo mínimo exigido era de 25 anos, então 76%. </br></br>
+            No Substitutivo apresentado pelo relator da Comissão Especial, foi mantido o tempo mínimo de 25 anos de contribuição, no entanto, o cálculo será de 70% da média para quem tempo mínimo de 25 anos. Após os 25 anos de contribuição o percentual de 70% da média será acrescido de 1,5% para cada ano que superar 25 anos de contribuição; 2% para o que superar 30 anos; e 2,5% para o que superar 35 anos, até 100%, aos 40 anos de contribuição.</br></br>
+            Desse modo, embora a proposta atual inicie com percentual de cálculo inferior à proposta encaminhada inicialmente, a nova regra traz benefício ao segurado, na medida em que permite a concessão do benefício com a aplicação do percentual de 100% aos 40 anos de contribuição.</br></br>
+        - question: O que acontece com a fórmula 85/95 e o fator previdenciário depois da promulgação da emenda à Constituição?
+          answer: >
+            Com a publicação da Emenda, as regras atuais da aposentadoria por tempo de contribuição, inclusive a opção pela aplicação da regra do fator 85/95, serão extintas e serão aplicadas as novas regras gerais e as regras de transição.</br></br>
+            Regra geral: 65 anos para o homem e 62 para a mulher, com 25 anos de contribuição, para o trabalhador urbano. </br></br>
+            Ressalvado o direito de se aposentar pelas regras que serão introduzidas pela Emenda, a regra de transição, para trabalhadores urbanos, é:</br></br>
+            <strong>Regra transitória para aposentadoria por tempo de contribuição: </strong></br></br>
+            Idade: 53 anos para a mulher e 55 anos para homens;</br></br>
+            Tempo de contribuição: 30 anos para a mulher e 35 para homens;</br></br>
+            Pedágio: 30% do tempo faltante.</br></br>
+            Acréscimo na idade de 1 ano a cada 2 anos a partir do terceiro exercício (a partir de 2020), até o limite de 62 anos para mulher e 65 anos para homens.</br></br>
+            </br></br>
+            <strong>Regra transitória para aposentadoria por idade:</strong></br></br>
+            Idade: 60 anos para a mulher e 65 anos para homens;</br></br>
+            Tempo de contribuição: 15 para ambos os sexos;</br></br>
+            Acréscimo na idade de 1 ano a cada 2 anos a partir do terceiro exercício (a partir de 2020), até o limite de 62 anos para mulher e 65 anos para homens.</br></br>
+            Acréscimo de 6 meses de tempo de contribuição a cada ano a partir de 2020, até o limite de 25 anos de contribuição.</br></br>
+        - question: O cálculo da média do benefício será mantido os 80% dos maiores salários de contribuição, como é atualmente?
+          answer: >
+            Na regra geral, o salário de benefício corresponderá à média aritmética simples dos salários de contribuição selecionados na forma da lei. </br></br>
+            Na regra transitória, o salário de benefício corresponderá à média simples de todos os salários de contribuição, depois de julho de 1994.</br></br>
+- name: Regime Próprio de Previdência Social
   topics:
     - name: topico1
       questions:

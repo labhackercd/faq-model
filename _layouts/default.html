@@ -24,34 +24,32 @@
         </div>
         <ul class="navigation__list">
           {% for category in site.data.questions %}
-            <li class="navigation__item"><a class="navigation__link" href="#">{{category.name}}</a></li>
+            <li class="navigation__item"><a class="navigation__link" href="#{{category.name|slugify}}">{{category.name}}</a></li>
           {% endfor %}
         </ul>
       </div>
     </div>
   </div>
 
-  <div class="faq">
-    <h1 class="faq__title">Reforma da Previdência</h1>
-    <h2 class="faq__category">Servidores Públicos</h2>
-    <ul class="faq__content">
-      <li class="faq__topic">
-        <h3 class="faq__topic-name" role="button">Regras de Transição <i class="faq__topic-icon fa fa-chevron-right"></i></h3>
-        <div class="faq__question-wrapper">
-          <h4 class="faq__question" role="button">Como ficam os servidores que ingressaram no serviço público antes de 1988? <i class="faq__question-icon fa fa-chevron-right"></i></h4>
-          <p class="faq__answer">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magnam, saepe veniam, quasi consequatur, eos molestias perspiciatis dolorem nesciunt iure omnis maiores ducimus, consectetur odio? Nesciunt quidem eligendi amet, impedit vel?</p>
-        </div>
-      </li>
-
-      <li class="faq__topic">
-        <h3 class="faq__topic-name">Paridade <i class="faq__topic-icon fa fa-chevron-right"></i></h3>
-        <div class="faq__question-wrapper">
-          <h4 class="faq__question">Como ficam os servidores que ingressaram no serviço público antes de 1988? <i class="faq__question-icon fa fa-chevron-right"></i></h4>
-          <p class="faq__answer">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magnam, saepe veniam, quasi consequatur, eos molestias perspiciatis dolorem nesciunt iure omnis maiores ducimus, consectetur odio? Nesciunt quidem eligendi amet, impedit vel?</p>
-        </div>
-      </li>
-    </ul>
-  </div>
+  {% for category in site.data.questions %}
+    <div id="{{category.name|slugify}}" class="faq">
+      <h1 class="faq__title">Reforma da Previdência</h1>
+      <h2 class="faq__category">{{category.name}}</h2>
+      {% for topic in category.topics %}
+        <ul class="faq__content">
+          <li class="faq__topic">
+            <h3 class="faq__topic-name" role="button">{{topic.name}} <i class="faq__topic-icon fa fa-chevron-right"></i></h3>
+            {% for question in topic.questions %}
+              <div class="faq__question-wrapper">
+                <h4 class="faq__question" role="button">{{question.question}} <i class="faq__question-icon fa fa-chevron-right"></i></h4>
+                <p class="faq__answer">{{question.answer}}</p>
+              </div>
+            {% endfor %}
+          </li>
+        </ul>
+      {% endfor %}
+    </div>
+  {% endfor %}
 
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
   <script src="/js/scripts.js"></script>
