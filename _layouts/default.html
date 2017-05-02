@@ -2,21 +2,51 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title></title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=2.0">
+  <title>Perguntas Frequentes - Reforma da Previdência</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/6.0.0/normalize.min.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
   <link rel="stylesheet" href="/css/app.css">
 </head>
 <body>
-  {% for category in site.data.questions %}
+  <div class="topbar">
+    <header class="topbar__header">
+      <img class="topbar__logo" src="/assets/img/logo.png" alt="">
+      <span class="topbar__title">Perguntas Frequentes</span>
+    </header>
 
-    {{category.name}} <br>
-    {% for topic in category.topics %}
-      {{topic.name}} <br>
+    <div class="navigation">
+      <ul class="navigation__list">
+        {% for category in site.data.questions %}
+          <li class="navigation__item"><a class="navigation__link" href="#">{{category.name}}</a></li>
+        {% endfor %}
+      </ul>
+    </div>
+  </div>
 
-      {% for question in topic.questions %}
-        {{question.question}} - {{question.answer}} <br>
-      {% endfor %}
-    {% endfor %}
-  {% endfor %}
+  <div class="faq">
+    <h1 class="faq__title">Reforma da Previdência</h1>
+    <h2 class="faq__category">Servidores Públicos</h2>
+    <ul class="faq__content">
+      <li class="faq__topic">
+        <h3 class="faq__topic-name" role="button">Regras de Transição <i class="faq__topic-icon fa fa-chevron-right"></i></h3>
+        <div class="faq__question-wrapper">
+          <h4 class="faq__question" role="button">Como ficam os servidores que ingressaram no serviço público antes de 1988? <i class="faq__question-icon fa fa-chevron-right"></i></h4>
+          <p class="faq__answer">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magnam, saepe veniam, quasi consequatur, eos molestias perspiciatis dolorem nesciunt iure omnis maiores ducimus, consectetur odio? Nesciunt quidem eligendi amet, impedit vel?</p>
+        </div>
+      </li>
 
+      <li class="faq__topic">
+        <h3 class="faq__topic-name">Paridade <i class="faq__topic-icon fa fa-chevron-right"></i></h3>
+        <div class="faq__question-wrapper">
+          <h4 class="faq__question">Como ficam os servidores que ingressaram no serviço público antes de 1988? <i class="faq__question-icon fa fa-chevron-right"></i></h4>
+          <p class="faq__answer">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magnam, saepe veniam, quasi consequatur, eos molestias perspiciatis dolorem nesciunt iure omnis maiores ducimus, consectetur odio? Nesciunt quidem eligendi amet, impedit vel?</p>
+        </div>
+      </li>
+    </ul>
+  </div>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="/js/scripts.js"></script>
 </body>
 </html>
