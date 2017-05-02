@@ -54,6 +54,11 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
+  transition: color 0.3s cubic-bezier(.55, 0, .1, 1);
+
+  &:hover, &:focus {
+    color: #00996e;
+  }
 }
 
 .faq__topic-icon {
@@ -75,6 +80,12 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
+
+  transition: color 0.3s cubic-bezier(.55, 0, .1, 1);
+
+  &:hover, &:focus {
+    color: #00996e;
+  }
 }
 
 .faq__question-icon {
