@@ -19,6 +19,9 @@
 
     <div class="navigation">
       <div class="navigation-container">
+        <div class="navigation__title-container">
+          <span class="navigation__title">Categorias</span>
+        </div>
         <ul class="navigation__list">
           {% for category in site.data.questions %}
             <li class="navigation__item"><a class="navigation__link" href="#">{{category.name}}</a></li>

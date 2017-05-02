@@ -4,10 +4,18 @@
 }
 
 .topbar__header {
-  display: flex;
   background-color: #004432;
-  padding: 0.5em 1em;
+}
+
+.topbar__header-container {
+  display: flex;
   align-items: center;
+  padding: 0.5em 1em;
+
+  @media screen and (min-width: 860px) {
+    width: 860px;
+    margin: 0 auto;
+  }
 }
 
 .topbar__logo {
