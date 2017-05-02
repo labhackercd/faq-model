@@ -1,0 +1,23 @@
+.navigation__list {
+  margin: 0;
+  padding: 0 1em;
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+  background-color: #e8e1e1;
+}
+
+.navigation__item {
+  padding: 0.5em;
+  font-weight: 500;
+  transition: ease-in-out 0.15s background-color;
+}
+
+.navigation__link {
+  text-decoration: none;
+  color: #585455;
+}
+
+.navigation__item:hover {
+  background-color: #fee064;
+}
