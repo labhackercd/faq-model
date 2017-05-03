@@ -35,6 +35,7 @@
     <div id="{{category.name|slugify}}" class="faq">
       <h1 class="faq__title">Reforma da Previdência</h1>
       <h2 class="faq__category">{{category.name}}</h2>
+      <p>{{category.description}}</p>
       {% for topic in category.topics %}
         <ul class="faq__content">
           <li class="faq__topic">
