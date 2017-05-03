@@ -34,7 +34,6 @@
 }
 
 .navigation__item {
-  padding: 0.5em 1em;
   font-weight: 600;
   transition: ease-in-out 0.15s background-color;
 }
@@ -42,6 +41,8 @@
 .navigation__link {
   text-decoration: none;
   color: #585455;
+  padding: 0.5em 1em;
+  display: block;
 }
 
 .navigation__item:hover {
