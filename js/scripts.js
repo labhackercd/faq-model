@@ -1,9 +1,9 @@
-$('.faq__topic-name').click(function() {
+$('.faq__topic-name').on('keypress click', function() {
   $(this).siblings('.faq__question-wrapper').toggleClass('active');
   $(this).find('.faq__topic-icon').toggleClass('active');
 });
 
-$('.faq__question').click(function() {
+$('.faq__question').on('keypress click', function() {
   $(this).siblings('.faq__answer').toggleClass('active');
   $(this).find('.faq__question-icon').toggleClass('active');
 });
@@ -13,7 +13,7 @@ function setTab(hash) {
   $(hash).removeClass('hide');
 }
 
-$('.navigation__link').click(function(event) {
+$('.navigation__link').on('keypress click', function(event) {
   setTab(event.target.hash);
 })
 

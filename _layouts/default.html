@@ -39,10 +39,10 @@
       {% for topic in category.topics %}
         <ul class="faq__content">
           <li class="faq__topic">
-            <h3 class="faq__topic-name" role="button">{{topic.name}} <i class="faq__topic-icon fa fa-chevron-right"></i></h3>
+            <h3 class="faq__topic-name" role="button" tabindex="0">{{topic.name}} <i class="faq__topic-icon fa fa-chevron-right"></i></h3>
             {% for question in topic.questions %}
               <div class="faq__question-wrapper">
-                <h4 class="faq__question" role="button">{{question.question}} <i class="faq__question-icon fa fa-chevron-right"></i></h4>
+                <h4 class="faq__question" role="button" tabindex="0">{{question.question}} <i class="faq__question-icon fa fa-chevron-right"></i></h4>
                 <p class="faq__answer">{{question.answer}}</p>
               </div>
             {% endfor %}
