@@ -9,11 +9,11 @@ $('.faq__question').on('keypress click', function() {
 });
 
 $('.faq__controls-button--expand').click(function(){
-  $('.faq__question-wrapper, .faq__topic-icon, .faq__answer, .faq__question-icon').addClass('active');
+  $(this).closest('.faq').find('.faq__question-wrapper, .faq__topic-icon, .faq__answer, .faq__question-icon').addClass('active');
 });
 
 $('.faq__controls-button--close').click(function(){
-  $('.faq__question-wrapper, .faq__topic-icon, .faq__answer, .faq__question-icon').removeClass('active');
+  $(this).closest('.faq').find('.faq__question-wrapper, .faq__topic-icon, .faq__answer, .faq__question-icon').removeClass('active');
 });
 
 function setTab(hash) {
