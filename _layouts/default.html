@@ -47,7 +47,7 @@
             {% for question in topic.questions %}
               <div class="faq__question-wrapper">
                 <h4 class="faq__question" role="button" tabindex="0">{{question.question}} <i class="faq__question-icon fa fa-chevron-right"></i></h4>
-                <p class="faq__answer">{{question.answer}}</p>
+                <div class="faq__answer">{{question.answer}}</div>
               </div>
             {% endfor %}
           </li>
