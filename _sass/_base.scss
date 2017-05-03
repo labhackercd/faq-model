@@ -1,0 +1,19 @@
+button {
+  padding: 0.5em 1em;
+  margin: 0;
+  margin-bottom: 0.25em;
+  margin-right: 0.25em;
+  border: none;
+  background-color: #008055;
+  color: white;
+  font-weight: 600;
+  font-size: 0.89em;
+  cursor: pointer;
+  text-transform: uppercase;
+  font-family: 'Open Sans', sans-serif;
+  transition: background-color 0.25s cubic-bezier(.55, 0, .1, 1);
+
+  &:hover, &:focus {
+    background-color: #004348;
+  }
+}

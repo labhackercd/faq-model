@@ -8,6 +8,14 @@ $('.faq__question').on('keypress click', function() {
   $(this).find('.faq__question-icon').toggleClass('active');
 });
 
+$('.faq__controls-button--expand').click(function(){
+  $('.faq__question-wrapper, .faq__topic-icon, .faq__answer, .faq__question-icon').addClass('active');
+});
+
+$('.faq__controls-button--close').click(function(){
+  $('.faq__question-wrapper, .faq__topic-icon, .faq__answer, .faq__question-icon').removeClass('active');
+});
+
 function setTab(hash) {
   $('.faq').addClass('hide');
   $(hash).removeClass('hide');
