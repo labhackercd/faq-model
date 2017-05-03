@@ -19,6 +19,8 @@ $('.faq__controls-button--close').click(function(){
 function setTab(hash) {
   $('.faq').addClass('hide');
   $(hash).removeClass('hide');
+  $('.navigation__link').removeClass('active');
+  $('a[href$="' + hash + '"]').addClass('active');
 }
 
 $('.navigation__link').on('keypress click', function(event) {
