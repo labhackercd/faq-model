@@ -24,7 +24,7 @@
         </div>
         <ul class="navigation__list">
           {% for category in site.data.questions %}
-            <li class="navigation__item"><a class="navigation__link" href="#{{category.name|slugify}}">{{category.name}}</a></li>
+            <li class="navigation__item"><a class="navigation__link" href="#{{category.initials|slugify}}">{{category.name}}</a></li>
           {% endfor %}
         </ul>
       </div>
@@ -32,7 +32,7 @@
   </div>
 
   {% for category in site.data.questions %}
-    <div id="{{category.name|slugify}}" class="faq">
+    <div id="{{category.initials|slugify}}" class="faq">
       <h1 class="faq__title">Reforma da Previdência</h1>
       <h2 class="faq__category">{{category.name}}</h2>
       <p>{{category.description}}</p>
