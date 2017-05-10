@@ -1,402 +1,67 @@
-- name: Regime Geral de Previdência Social
-  initials: rgps
-  description: >
-    É o Regime de Previdência operacionalizado pelo Instituto Nacional do Seguro Social (INSS), autarquia da Administração Pública Federal, de filiação obrigatória para todos os trabalhadores que são regidos pela Consolidação das Leis Trabalhistas (CLT).  São categorias de segurados do RGPS: o empregado, o empregado doméstico, o trabalhador avulso, o contribuinte individual, o segurado especial e o segurado facultativo.
+- name: Perguntas Frequentes
+  initials: geral
+  description:
   topics:
+    - name: Aspectos Gerais
+      questions:
+        - question: Haverá uma idade mínima para se aposentar, pela proposta? Qual será ela?
+          answer: Sim. A idade mínima para aposentadoria será de 65 anos para homens e 62 anos para mulheres, com, no mínimo, 25 anos de tempo de contribuição para ambos. No entanto, haverá regras de transição para os atuais trabalhadores.
+        - question: Qual o valor estimado da economia que a reforma da previdência trará para os cofres públicos?
+          answer: O valor estimado da economia com a aprovação da reforma é variável e muda conforme o texto é discutido e alterado. Segundo o Ministério da Fazenda, em um cálculo que leva em conta apenas o Regime Geral da Previdência Social (RGPS), dos segurados do Instituto Nacional do Seguro Social (INSS) e a assistência social, a proposta original encaminhada pelo Executivo permitiria ao governo economizar R$ 793 bilhões no decênio de 2018 a 2027. Com as alterações propostas pelo relator, o montante economizado cairia para R$ 604 bilhões, o equivalente a 76% da economia original.
+        - question: Por que economizar com a aposentadoria do trabalhador?
+          answer: Não se trata de “economizar com a aposentadoria do trabalhador”. É necessário que o governo corte gastos correntes para evitar o crescimento da dívida pública, a elevação da taxa de juros SELIC e a criação de um cenário de incertezas. É recomendável também que as ações governamentais tenham foco em ações de médio e longo prazos, preservando a capacidade de investimento do governo e o pagamento de salário dos trabalhadores na ativa, entre outras prioridades.
+        - question: Como funciona o atual regime previdenciário do Brasil?
+          answer: O sistema previdenciário vigente no Brasil é o de repartição simples baseado no princípio da contribuição dos trabalhadores da ativa para o pagamento dos inativos e pensionistas. Desse modo, o sistema depende de uma taxa de crescimento populacional elevada para funcionar bem. Mas essa taxa vem se reduzindo progressivamente no país em decorrência da queda na taxa de fecundidade, com cada vez menos nascimentos, e aumento da expectativa de vida.
+        - question: Não seria melhor que todos se aposentassem de acordo com a idade que começaram a trabalhar?
+          answer: O objetivo do regime previdenciário é a proteção do trabalhador na idade avançada, ou seja, que ele ao chegar em uma idade de maior dificuldade laborativa tenha sua capacidade de compra preservada, conforme dispõe a Constituição Federal no artigo 201, I. Tendo em vista que o sistema previdenciário brasileiro se baseia em um modelo de repartição simples, no qual, basicamente, as contribuições previdenciárias dos trabalhadores ativos cobrem os gastos com os trabalhadores inativos, não faz sentido, portanto, estabelecer um regime previdenciário que independa de idade mínima.
+        - question: Do jeito que está a proposta, em quanto tempo teremos que debater novamente as regras gerais da aposentadoria?
+          answer: A economia de um país gira em torno de uma série de fatores externos e internos, como a importação e exportação de produtos, a produção de mercadoria interna, entre outros. Do mesmo modo, a previdência social não se sustenta somente em suas próprias regras, estando diretamente relacionada com diversos fatores externos a ela, como a expectativa de vida da população, a taxa de natalidade, a arrecadação de tributos, entre outros fatores que fogem do controle governamental. Dessa forma, a necessidade de se debater novamente as regras gerais da previdência, e em quanto tempo isso pode acontecer, vai depender da evolução dos fatores externos que influenciam no regime previdenciário.
+    - name: Regime Geral de Previdência Social (RGPS)
+      questions:
+        - question: Qual a idade mínima para trabalhadores urbanos se aposentarem pelo Regime Geral de Previdência Social (RGPS) caso a PEC 287/2016 seja aprovada?
+          answer: No texto proposto pelo relator, a idade mínima de aposentadoria para as mulheres é 62 anos e para os homens, 65 anos, sendo necessários no mínimo 25 anos de contribuição previdenciária, mas existem regras de transição para os atuais trabalhadores.
+        - question: Qual a idade mínima para trabalhadores rurais se aposentarem pelo RGPS caso a PEC 287/2016 seja aprovada?
+          answer: No texto proposto pelo relator, para os trabalhadores rurais sem carteira assinada, agricultores familiares e pescadores artesanais, a idade mínima será de 57 anos para as mulheres e de 60 anos para os homens, sendo necessários no mínimo 15 anos de tempo de contribuição previdenciária.
+        - question: O cálculo da média do benefício manterá os 80% das maiores contribuições?
+          answer: Não. De acordo com o novo texto da PEC, serão considerados 100% das contribuições feitas a partir de 1994. Contudo, o percentual poderá ser modificado pela aprovação de outra lei.
+        - question: É possível não estar vinculado à Previdência Social? Como faço para não contribuir e ficar com o meu dinheiro?
+          answer: A contribuição previdenciária do trabalhador e do empregador é compulsória.  A previdência social brasileira se baseia em um modelo de repartição simples, com o princípio da solidariedade. Assim, todos são obrigados a filiar-se ao sistema para gozarem de uma proteção mínima. Ressalta-se que o RGPS não financia apenas aposentadorias, sendo também responsável pelo pagamento de auxílio doença, licença maternidade e pensões por morte, entre outros benefícios.
+        - question: Recolher a contribuição previdenciária para os filhos menores de idade fará com que eles aposentem mais cedo?
+          answer: O tempo de contribuição previdenciária, de acordo com a nova reforma, será parte integrante dos requisitos mínimos e não um requisito alternativo. Portanto, a contribuição voluntária antes da entrada no mercado de trabalho é indiferente, pois o trabalhador só adquire o direito à aposentadoria quando preencher todos os requisitos exigidos, inclusive a idade mínima, e não apenas uma parte deles.
     - name: Direitos Adquiridos
       questions:
-        - question: Já tenho idade e tempo de contribuição para aposentadoria. A reforma pode me afetar?
-          answer: >
-            Não. Serão respeitados os direitos já adquiridos, seja para aposentadoria por tempo de contribuição ou para aposentadoria por idade urbana e rural, de acordo com os seguintes critérios:</br></br>
-            Para a aposentadoria por tempo de contribuição: 35 anos de contribuição para os homens e 30 anos de contribuição para as mulheres.</br></br>
-            Para a aposentadoria por idade urbana: 65 anos para os homens e 60 anos para as mulheres, com 15 anos de contribuição.</br></br>
-            Para a aposentadoria por idade rural: 60 anos para os homens e 55 anos para as mulheres, com 15 anos de contribuição ou de atividade rural para os segurados especiais.
-        - question: Sou homem, tenho 60 anos e já fechei os 40 anos de contribuição, mas não atingi a idade mínima. Devo continuar contribuindo por mais 5 anos para atingir os 65 anos para ter acesso a aposentadoria?
-          answer: De acordo com legislação atual, o segurado já preenche todos os requisitos para requerer a  aposentadoria por tempo de contribuição (direito adquirido) pela regra do fator previdenciário ou pela  fórmula 85/95, com a aplicação do percentual de 100% sobre a média dos salários de contribuição.
-    - name: Idade Mínima
+        - question: É possível, com a discussão da reforma, atrasar as aposentadorias dos trabalhadores que já completaram os requisitos mínimos com o objetivo de o governo fazer caixa?
+          answer: Não, pois o direito a se requerer a aposentadoria é líquido e certo. Os trabalhadores que até a promulgação da reforma completarem todos os requisitos para requerer sua aposentadoria, ainda que de acordo com as regras antigas, poderão fazê-lo a qualquer momento, não sendo afetados pelas mudanças. Nesse sentido, o governo não pode intervir na concessão da aposentadoria simplesmente para conter gastos.
+        - question: Como fica a situação daqueles que optaram por ainda não se aposentar mesmo já podendo fazê-lo?
+          answer: Os trabalhadores que até a promulgação da reforma completarem todos os requisitos para requerer sua aposentadoria, ainda que de acordo com as regras antigas, poderão fazê-lo a qualquer momento, não sendo afetados pelas mudanças, pois se trata de direito adquirido e não de uma mera expectativa de direito.
+    - name: Pensões
       questions:
-        - question: A reforma estabelecerá idade mínima de aposentadoria?
-          answer: Sim. A idade mínima para aposentadoria será de 65 anos, para homens, e 62 anos, para mulheres, com, no mínimo, 25 anos de tempo de contribuição.
-        - question: Com o aumento da expectativa de sobrevida, a idade mínima para aposentadoria será aumentada? Como esse aumento acontecerá? Qual a projeção ao longo dos anos?
-          answer: >
-            A idade mínima aumentará em um ano sempre que houver incremento de um ano inteiro à expectativa de sobrevida da população brasileira aos 65 anos de idade.</br></br>
-            A referência para o incremento ocorre no ano de publicação da Emenda. Supondo que isso ocorra em 2017, segundo as projeções feitas pelo IBGE, a expectativa de sobrevida aos 65 anos para ambos os sexos será de 18,63 anos. Em 2026, essa expectativa de sobrevida está projetada para 19,64 anos, ocasião em que terá sido acrescida em um ano inteiro e assim a idade mínima de aposentadoria passará para 66 anos de idade.</br></br>
-            O segundo aumento da idade mínima ocorrerá pelas projeções populacionais do IBGE somente em 2041, quando a expectativa de sobrevida aos 65 anos para ambos os sexos atingirá 20,65 anos e a idade mínima para a aposentadoria passará para 67 anos de idade. O terceiro aumento deverá levar muito tempo para ocorrer, provavelmente somente depois do ano 2100.
-    - name: Cálculo do Benefício
+        - question: Um casal de aposentados ganha mais que dois salários mínimos, pois cada um tem sua aposentadoria conquistada com trabalho e contribuição pelo valor do teto da Previdência. Quando um deles falece, o sobrevivente vai ter sua renda diminuída?
+          answer: O texto da PEC prevê a possibilidade de acumulação de aposentadoria e pensão até dois salários mínimos. No caso acima, o cônjuge sobrevivente poderá optar pelo benefício de maior valor, sabendo que o valor da pensão será de 50% da remuneração do falecido acrescidos de 10% para cada dependente.  Importante destacar que aqueles que possuem direito adquirido, ou seja, já possuem a pensão e o direito de se aposentar ou são aposentados até a data da vigência da nova Lei, não serão submetidos à regra.
+        - question: O que está previsto para pensionistas que estão para se aposentar e contam com a renda de suas pensões (por morte) somada à renda da aposentadoria?
+          answer: A nova regra não será aplicada àqueles que possuem direito adquirido, ou seja, aqueles que já possuem a pensão e o direito de se aposentar ou já são aposentados. Sendo assim, haverá tempo hábil para que as pessoas que ainda possam cumprir determinado tempo até que se aposentem façam seu planejamento financeiro. Vale lembrar que o beneficiário poderá decidir entre a aposentadoria ou a pensão.
+    - name: Aposentadoria de Parlamentares
       questions:
-        - question: Como ficará o valor da aposentadoria?
-          answer: O valor da aposentadoria corresponderá a 70% (setenta por cento) da média dos salários de contribuição.
-        - question: Como ficará o valor da aposentadoria para benefícios concedidos a partir de 25 anos de contribuição?
+        - question: Qual é a idade em que um deputado se aposenta? Ele também contribui com a Previdência?
           answer: >
-            O valor da aposentadoria corresponderá a 70% (setenta por cento) da média dos salários de contribuição. A partir do 26º ano de contribuição será acrescido 1,5 (um e meio) ponto percentual; do 31º ano de contribuição, 2,0 (dois) pontos percentuais; e do 36º 2,5 (dois e meio) pontos percentuais, para cada ano de contribuição considerado na concessão da aposentadoria, até o limite de 100%.</br></br>
-            O trabalhador com 65 anos de idade e 25 anos de contribuição terá a aposentadoria igual a 70% da média dos salários de contribuição, conforme tabela abaixo: </br></br>
-            <table><tr><th>Tempo de Contribuição</th><th>Pontos</th><th>Percentual Benefício</th></tr><tr><td>25 anos</td><td>-</td><td>70%</td></tr><tr><td>26 anos</td><td>1,5%</td><td>71,5%</td></tr><tr><td>27 anos</td><td>1,5%</td><td>73%</td></tr><tr><td>28 anos</td><td>1,5%</td><td>74,5%</td></tr><tr><td>29 anos</td><td>1,5%</td><td>76%</td></tr><tr><td>30 anos</td><td>1,5%</td><td>77,5%</td></tr><tr><td>31 anos</td><td>2,0%</td><td>79,5%</td></tr><tr><td>32 anos</td><td>2,0%</td><td>81,5%</td></tr><tr><td>33 anos</td><td>2,0%</td><td>83,5%</td></tr><tr><td>34 anos</td><td>2,0%</td><td>85,5%</td></tr><tr><td>35 anos</td><td>2,0%</td><td>87,5%</td></tr><tr><td>36 anos</td><td>2,5%</td><td>90%</td></tr><tr><td>37 anos</td><td>2,5%</td><td>92,5%</td></tr><tr><td>38 anos</td><td>2,5%</td><td>95%</td></tr><tr><td>39 anos</td><td>2,5%</td><td>97,5%</td></tr><tr><td>40 anos<br></td><td>2,5%</td><td>100%</td></tr></table>
-        - question: E a fórmula de cálculo do salário de benefício?
+            Atualmente, a idade mínima exigida para a concessão integral da aposentadoria a um deputado federal é de 60 anos de idade e 35 anos de contribuição, sem fazer distinção entre homens e mulheres (Plano de Seguridade Social dos Congressistas -PSSC - Lei 9.506/97). </br></br>
+            Todavia, se a PEC 287/2016 for aprovada os detentores de novo mandato eletivo passam a ser obrigatoriamente vinculados ao Regime Geral de Previdência Social. Antes eles só contribuíam para o INSS caso não aderissem ao PSSC. </br></br>
+            Pela nova regra, para o parlamentar federal se aposentar, ele terá que atingir o limite de 65 anos de idade se homem e 62, se mulher, e 35 anos de contribuição, acrescidos de 30% de pedágio sobre o que falta para atingir tal exigência.
+        - question: Quanto um deputado terá de trabalhar a mais para se aposentar? Será que terá de pagar um pedágio pelo período que faltava pelas regras atuais, como os servidores que começaram até 2003?
+          answer: Sim. Os parlamentares federais precisarão atingir a idade mínima de 62 anos para as mulheres e de 65 anos para os homens, a fim de adquirirem o direito à aposentadoria, além de cumprir os 30% de pedágio.
+        - question: O relator manteve a previsão de que os mandatários de cargos eletivos serão regidos pelo Regime Geral de Previdência Social?
           answer: >
-            Na regra geral, o salário de benefício corresponderá à média aritmética simples dos salários de contribuição selecionados na forma da lei. </br></br>
-            Na regra transitória, o salário de benefício corresponderá à média simples de todos os salários de contribuição, depois de julho de 1994.
-        - question: Por que o Substitutivo reduz o benefício do trabalhador que se aposentar com 25 anos de contribuição (76% para 70%)?
-          answer: >
-            A Reforma traz mudança na regra de cálculo, que está sendo ajustada para atender aos anseios da sociedade.</br></br>
-            Inicialmente, a proposta do governo, quando do encaminhamento da PEC ao Congresso Nacional, propunha 51% mais 1% por ano de contribuição. O tempo mínimo exigido era de 25 anos, então 76%. </br></br>
-            No Substitutivo apresentado pelo relator da Comissão Especial, foi mantido o tempo mínimo de 25 anos de contribuição, no entanto, o cálculo será de 70% da média para quem tempo mínimo de 25 anos. Após os 25 anos de contribuição o percentual de 70% da média será acrescido de 1,5% para cada ano que superar 25 anos de contribuição; 2% para o que superar 30 anos; e 2,5% para o que superar 35 anos, até 100%, aos 40 anos de contribuição.</br></br>
-            Desse modo, embora a proposta atual inicie com percentual de cálculo inferior à proposta encaminhada inicialmente, a nova regra traz benefício ao segurado, na medida em que permite a concessão do benefício com a aplicação do percentual de 100% aos 40 anos de contribuição.
-        - question: O que acontece com a fórmula 85/95 e o fator previdenciário depois da promulgação da emenda à Constituição?
-          answer: >
-            Com a publicação da Emenda, as regras atuais da aposentadoria por tempo de contribuição, inclusive a opção pela aplicação da regra do fator 85/95, serão extintas e serão aplicadas as novas regras gerais e as regras de transição.</br></br>
-            Regra geral: 65 anos para o homem e 62 para a mulher, com 25 anos de contribuição, para o trabalhador urbano. </br></br>
-            Ressalvado o direito de se aposentar pelas regras que serão introduzidas pela Emenda, a regra de transição, para trabalhadores urbanos, é:</br></br>
-            <strong>Regra transitória para aposentadoria por tempo de contribuição: </strong></br></br>
-            Idade: 53 anos para a mulher e 55 anos para homens;</br></br>
-            Tempo de contribuição: 30 anos para a mulher e 35 para homens;</br></br>
-            Pedágio: 30% do tempo faltante.</br></br>
-            Acréscimo na idade de 1 ano a cada 2 anos a partir do terceiro exercício (a partir de 2020), até o limite de 62 anos para mulher e 65 anos para homens.</br></br>
-            </br></br>
-            <strong>Regra transitória para aposentadoria por idade:</strong></br></br>
-            Idade: 60 anos para a mulher e 65 anos para homens;</br></br>
-            Tempo de contribuição: 15 para ambos os sexos;</br></br>
-            Acréscimo na idade de 1 ano a cada 2 anos a partir do terceiro exercício (a partir de 2020), até o limite de 62 anos para mulher e 65 anos para homens.</br></br>
-            Acréscimo de 6 meses de tempo de contribuição a cada ano a partir de 2020, até o limite de 25 anos de contribuição.
-        - question: O cálculo da média do benefício será mantido os 80% dos maiores salários de contribuição, como é atualmente?
-          answer: >
-            Na regra geral, o salário de benefício corresponderá à média aritmética simples dos salários de contribuição selecionados na forma da lei. </br></br>
-            Na regra transitória, o salário de benefício corresponderá à média simples de todos os salários de contribuição, depois de julho de 1994.
-    - name: Regras de Transição
+            Com relação a esse tema, foi mantida a redação do texto original encaminhado pelo Executivo ao Congresso: detentores de novos mandatos eletivos passam a ser obrigatoriamente vinculados ao RGPS.
+        - question: As novas regras previdenciárias valerão para os Três Poderes?
+          answer: Sim. O que deve ser ressaltado é que, para os servidores públicos das esferas estaduais e municipais, haverá um prazo de até dois anos para a constituição de entidades de previdência complementar, a exemplo do que já ocorre na União.  Ressalte-se que os regimes próprios existentes, apesar de terem suas particularidades, também serão afetados pela reforma da Previdência, a não ser que o município ou o estado, no prazo de 180 dias, opte por adotar regras distintas para seus servidores.
+    - name: Aposentadoria por Invalidez
       questions:
-        - question: Haverá regra de transição para os atuais segurados do Regime Geral de Previdência Social?
+        - question: Algo mudará sobre a concessão e manutenção da aposentadoria por invalidez para evitar que trabalhadores com capacidade laborativa não recebam indevidamente o benefício previdenciário?
           answer: >
-            Sim. Homens e mulheres que já tiverem ingressado no sistema, antes da publicação da Emenda, poderão se aposentar nas seguintes situações:</br></br>
-            <strong>I - Aposentadoria por Tempo de Contribuição</strong>, aos 53 anos de idade, se mulher, e 55 anos de idade, se homem, com 30 anos de contribuição, se mulher, e 35 anos de contribuição se homem, acrescido de período adicional de contribuição (pedágio) equivalente a 30% (trinta por cento) do tempo que, na data de publicação da Emenda, faltaria para atingir o número de meses de contribuição exigido.</br></br>
-            <strong>II - Aposentadoria por Idade</strong>, aos 60 anos de idade, se mulher, e 65 anos de idade se homem, reduzidos em cinco anos para os trabalhadores rurais e para o segurado especial, e cento e oitenta contribuições mensais (15 anos).</br></br>
-            As idades exigidas nas duas situações serão acrescidas, a partir de 2020, em 1 ano a cada dois anos até que se atinja a idade mínima de 65 anos para homens e 62 anos para mulheres, ou 60 anos para homens e 57 anos para as mulheres, para os segurados especiais.</br></br>
-            A tabela abaixo exemplifica a progressão da idade para a aposentadoria por tempo de contribuição.</br></br>
-            <table><tr><th colspan="2">Homens</th><th colspan="2">Mulheres</th></tr><tr><td>Ano (a partir de)</td><td></td><td>Ano (a partir de)</td><td></td></tr><tr><td>Até 2019</td><td>55 anos</td><td>Até 2019</td><td>53 anos</td></tr><tr><td>2020</td><td>56 anos</td><td>2020</td><td>54 anos</td></tr><tr><td>2022</td><td>57 anos</td><td>2022</td><td>55 anos</td></tr><tr><td>2024</td><td>58 anos</td><td>2024</td><td>56 anos</td></tr><tr><td>2026</td><td>59 anos</td><td>2026</td><td>57 anos</td></tr><tr><td>2028</td><td>60 anos</td><td>2028</td><td>58 anos</td></tr><tr><td>2030</td><td>61 anos</td><td>2030</td><td>59 anos</td></tr><tr><td>2032</td><td>62 anos</td><td>2032</td><td>60 anos</td></tr><tr><td>2034</td><td>63 anos</td><td>2034</td><td>61 anos</td></tr><tr><td>2036</td><td>64 anos</td><td>2036</td><td>62 anos</td></tr><tr><td>2038</td><td>65 anos</td><td>2038</td><td>62 anos</td></tr></table>
-        - question: Qual a regra de transição para o segurado especial?
-          answer: O segurado especial, na regra de transição, se aposentará aos 15 anos de contribuição com 60 anos, para homens, e 55 anos, para mulheres, observada a progressão da idade da mulher, a partir de 2020, em 1 ano a cada 2 anos, até o limite de 57 anos.
-        - question: Qual a regra de transição para o professor?
-          answer: O professor, pela regra de transição, se aposentará aos 48 anos de idade e 25 anos de contribuição, se mulher, e 50 anos de idade e 30 anos de contribuição, se homem, acrescido de período adicional de 30% do tempo faltante. O requisito de idade, a partir de 2020, será acrescido em 1 ano a cada 2 anos, até o limite de 60 anos, para ambos os sexos.
-    - name: Carência
+            Sim. A previsão legal no sentido de obrigar o segurado a submeter-se a avaliações periódicas para verificação da continuidade das condições que ensejaram a concessão de aposentadoria foi mantida. </br></br>
+            Segundo a regra proposta, os aposentados por invalidez passarão a ser chamados de aposentados por incapacidade permanente, e o valor do benefício será de 70% da média das contribuições acrescidos de 1,5%, 2,0% ou 2,5% do que ultrapassar o requisito mínimo para a aposentadoria voluntária (no caso daqueles submetidos ao RGPS, 25 anos de tempo de contribuição). </br></br>
+            Nos casos de acidente do trabalho e doenças profissionais e do trabalho, no RGPS, e no caso de acidente em serviço e doença profissional, no RPPS, o benefício será de 100% da média.
+    - name: Benefício da Prestação Continuada (BPC)
       questions:
-        - question: Haverá progressão para a carência exigida de 15 anos de contribuição para a aposentadoria por idade?
-          answer: >
-            Sim, exceto para o segurado especial. A partir de 2020, a carência de 180 meses será acrescida de 6 meses a cada ano até o limite de 300 meses (25 anos), conforme tabela abaixo:</br></br>
-            <table><tr><th>Ano (a partir de)</th><th>Carência Exigida</th></tr><tr><td>2020</td><td>186 meses</td></tr><tr><td>2021</td><td>192 meses</td></tr><tr><td>2022</td><td>198 meses</td></tr><tr><td>2023</td><td>204 meses</td></tr><tr><td>2024</td><td>210 meses</td></tr><tr><td>2025</td><td>216 meses</td></tr><tr><td>2026</td><td>222 meses</td></tr><tr><td>2027</td><td>228 meses</td></tr><tr><td>2028</td><td>234 meses</td></tr><tr><td>2029</td><td>240 meses</td></tr><tr><td>2030</td><td>246 meses</td></tr><tr><td>2031</td><td>252 meses</td></tr><tr><td>2032</td><td>258 meses</td></tr><tr><td>2033</td><td>264 meses</td></tr><tr><td>2034</td><td>270 meses</td></tr><tr><td>2035</td><td>276 meses</td></tr><tr><td>2036</td><td>282 meses</td></tr><tr><td>2037</td><td>288 meses</td></tr><tr><td>2038</td><td>294 meses</td></tr><tr><td>2039</td><td>300 meses</td></tr></table>
-    - name: Reajuste dos Benefícios
-      questions:
-        - question: Haverá correção nas contribuições para que seja calculada a média que resulta no salário-benefício?
-          answer: Todos os salários de contribuição continuam a ser atualizados. Caso o cálculo da média seja inferior ao limite mínimo estabelecido para o benefício, será garantido o salário mínimo.
-        - question: Como será a correção para aqueles que receberão 1 salário mínimo de benefício?
-          answer: Os benefícios são reajustados pelo Índice Nacional de Preços ao Consumidor – INPC, para repor a inflação do período. Para quem ganha salário mínimo, segundo lei vigente, pode ter ganho real equivalente ao percentual do PIB positivo, quando houver.
-    - name: Trabalhador Rural
-      questions:
-        - question: A contribuição previdenciária do segurado especial continuará sendo sobre o valor da comercialização da produção?
-          answer: Não. A contribuição será sobre o limite mínimo do salário de contribuição do RGPS, mediante a aplicação de uma alíquota favorecida definida em lei. Após a publicação da Emenda à Constituição, haverá prazo de até dois anos para a lei definir a alíquota individual a ser aplicada sobre o salário mínimo. Caso a lei não seja publicada, o segurado especial estará sujeito à mesma alíquota e condições do plano simplificado de 5% de contribuição previdenciária.
-        - question: O grupo familiar do segurado especial continuará protegido pela Previdência Social?
-          answer: Sim. Entretanto cada membro do grupo familiar contribuirá de forma individualizada mediante alíquota favorecida sobre o limite mínimo do salário de contribuição para o Regime Geral.
-        - question: O segurado especial (produtor, parceiro, meeiro e arrendatário rural, o extrativista, o pescador artesanal, que exerce sua atividade em regime de economia familiar) poderá se aposentar com idade reduzida?
-          answer: Sim. Pela regra geral homens se aposentam aos 60 anos e mulheres aos 57 anos, com, no mínimo, 15 anos de tempo de contribuição.
-        - question: Haverá regra de transição para o segurado especial?
-          answer: Sim. A regra de transição terá como referência a idade mínima de 60 anos para homem e 55 anos para mulher e o tempo de contribuição de 15 anos. A idade da mulher (55 anos) a partir de 2020 será acrescida de 1 ano a cada 2 anos, até o limite de 57 anos.
-        - question: Como fica a contribuição para o  trabalhador rural (em regime de economia familiar – segurado especial)?
-          answer: Para o segurado especial, a PEC dispõe que será instituída, no prazo máximo de 2 anos, uma contribuição individual para cada membro do grupo familiar, com alíquota favorecida. A contribuição atual (sobre a comercialização) será mantida até a publicação da lei. Para comprovar o exercício da atividade rural, para fins de benefício previdenciário, no valor de um salário mínimo, a PEC dispõe, ainda, que poderá se dar por declaração do próprio segurado acompanhada de indício de prova material.
-        - question: Qual a diferença de trabalhador rural para trabalhador rural de economia familiar (segurado especial)?
-          answer: >
-            O segurado especial se diferencia dos demais trabalhadores rurais por exercer a atividade em regime de economia familiar, sem empregados permanentes, na condição de produtor, parceiro, meeiro e arrendatário rurais, extrativista ou pescador artesanal. </br></br>
-            Para fins de benefício previdenciário, para o trabalhador empregado e para o contribuinte individual rurais, já existe a obrigatoriedade de contribuição individual. Para o segurado especial, conforme legislação atual, a contribuição ocorre mediante a aplicação de uma alíquota sobre o resultado de comercialização da produção, com necessidade de comprovação do exercício da atividade, para fins de concessão do benefício no valor de um salário mínimo.</br></br>
-            Até dois anos após a promulgação da emenda à Constituição, nos moldes de lei a ser publicada, o segurado especial também estará obrigado a contribuir de forma individualizada.
-    - name: Professores e Policiais
-      questions:
-        - question: Haverá concessão de aposentadoria com tempo reduzido para o professor que comprovar, exclusivamente, tempo de efetivo exercício das funções de magistério na educação infantil e no ensino fundamental e médio?
-          answer: >
-            A redução para o professor será em relação à idade. Na regra geral se exigirá 60 anos de idade e 25 anos de contribuição, para ambos os sexos. Na regra de transição, 48 anos de idade se mulher, com 25 anos de contribuição e 50 anos se homem, com 30 de contribuição, mais pedágio de 30% do tempo faltante. </br></br>
-            O valor do benefício será de 70% com 25 anos (mulher) e 30 anos para o homem. Depois de 25 anos, se mulher, ou 30 anos, se homem, (70% da média mais 1,5% para cada ano que superar 25 anos de tempo de contribuição; mais 2% para o que superar 30 anos; e 2,5% para o que superar 35 anos, até 100%.
-        - question: Como se dará a aposentadoria do policial?
-          answer: >
-            </br></br><strong>Regra Geral:</strong>
-            </br></br>Lei Complementar definirá a redução da idade igual ou superior a 55 anos
-            </br></br>Tempo de contribuição de 25 anos em atividade policial
-            </br></br>
-            </br></br><strong>Regra de Transição:</strong>
-            </br></br>Aos 55 anos de idade, para ambos os sexos, com 30 anos de contribuição, se homem, e 25 anos de contribuição, se mulher, com 20 anos de atividade policial, para ambos.
-            </br></br>O tempo de atividade policial será acrescido de 1 ano a cada 2 anos até atingir a exigência de 25 anos
-    - name: Aposentadoria da Pessoa com Deficiência
-      questions:
-        - question: Como ficam as regras de aposentadoria para a pessoa com deficiência?
-          answer: >
-            Para esses trabalhadores, a Reforma prevê a adoção de critérios diferenciados em relação à idade e tempo de contribuição, conforme abaixo: </br></br>
-            <strong>Regra geral:</strong> </br></br>
-            Lei complementar disporá sobre novas regras sobre limite de redução de idade e de tempo de contribuição.</br></br>
-            Valor do benefício: 100% da média. </br></br>
-            A deficiência será por avaliação biopsicossocial.</br></br>
-            <strong>Regra de transição:</strong></br></br>
-            Sem idade mínima aos 35, 25 ou 20 anos de tempo de contribuição, conforme a deficiência.
-            Cálculo: 100% da média.</br></br>
-        - question: Haverá alguma alteração para a pessoa com deficiência que  já recebe pensão?
-          answer: Não, relativamente ao recebimento da pensão. A PEC não afeta os benefícios já concedidos. As novas regras valerão para os benefícios concedidos a partir promulgação da emenda.
-    - name: Aposentadoria Especial
-      questions:
-        - question: Como ficam as regras de aposentadoria para o trabalhador cujas atividades sejam exercidas sob condições especiais que efetivamente prejudiquem a saúde?
-          answer: >
-            Para esses trabalhadores, a Reforma prevê a adoção de critérios diferenciados em relação à idade e tempo de contribuição, conforme abaixo: </br></br>
-            A aposentadoria especial é devida somente àqueles trabalhadores sujeitos a agentes nocivos físicos, químicos e biológicos que prejudiquem a saúde ou a integridade física.</br></br>
-            <strong>Regra Geral:</strong></br></br>
-            Lei complementar disporá sobre novas regras: Idade igual ou superior a 55 anos de idade e tempo de contribuição igual ou superior a 15 anos.</br></br>
-            Veda a categorização por categoria profissional ou ocupação.</br></br>
-            Cálculo: 70% da média + 1,5% para cada ano que superar o tempo mínimo estabelecido em lei para o tempo de contribuição; mais 2% para o que superar o tempo mínimo + 5 anos; e 2,5% para o que superar o tempo mínimo + 10 anos, até 100%.</br></br>
-            <strong>Regra de Transição:</strong></br></br>
-            Sem idade mínima aos 15, 20 ou 25 anos de contribuição. </br></br>
-            Cálculo: 70% da média + 1,5% para cada ano que superar o tempo mínimo estabelecido em lei para o tempo de contribuição; mais 2% para o que superar o tempo mínimo + 5 anos; e 2,5% para o que superar o tempo mínimo + 10 anos, até 100%.
-    - name: Aposentadoria por Incapacidade
-      questions:
-        - question: E no caso de aposentadoria por incapacidade?
-          answer: No caso de aposentadoria por incapacidade permanente para o trabalho quando decorrentes, exclusivamente, de acidente do trabalho (acidentes típicos, acidentes de trajeto e doenças do trabalho), o valor corresponderá a 100% da média das remunerações. Quando a incapacidade não decorrer de acidente de trabalho, o cálculo será de 70% da média de salários de contribuição, acrescida dos percentuais previstos na tabela anterior.
-    - name: Pensão por Morte
-      questions:
-        - question: Quais as principais mudanças referentes à pensão por morte?
-          answer: >
-            - Valor do benefício baseado em sistema de cotas, com previsão de valor inicial de pensão diferenciado conforme o número de dependentes (50% mais 10% por dependente, até o limite de 100%);</br></br>
-            - Vinculação do valor do benefício ao salário mínimo;</br></br>
-            - Vedação do acúmulo de duas pensões por morte, pelo beneficiário cônjuge ou companheiro, oriundas de qualquer regime previdenciário;</br></br>
-            - Irreversibilidade das cotas individuais de pensão.
-    - name: Quais as mudanças ocorridas nas regras de cálculo da pensão por morte?
-      questions:
-        - question: Quais as mudanças ocorridas nas regras de cálculo da pensão por morte?
-          answer: >
-            O benefício de pensão por morte terá um valor equivalente a uma cota familiar de 50% do valor da aposentadoria que o segurado recebia ou daquela a que teria direito se estivesse aposentado por incapacidade permanente, acrescida de 10% para cada dependente (mínimo de 60%), até o limite de 100%.</br></br>
-            </br>
-            <i>Exemplo:</br>
-            Segurado aposentado, ao falecer, deixou esposa e dois filhos com direito ao recebimento do benefício de pensão por morte. O valor do benefício corresponderá a 80% do valor da aposentadoria que o segurado recebia (50% acrescido de 3 cotas individuais de 10%)</i>
-        - question: As regras da pensão por morte a dependentes de segurados que faleceram antes da reforma mudam?
-          answer: Não. É mantido o direito adquirido ao recebimento da pensão por morte segundo as regras vigentes na data do óbito. Apenas as pensões decorrentes de óbito ocorrido a partir da publicação da Emenda serão calculadas pelas novas regras.
-        - question: Com a perda da qualidade de dependente (quando o jovem atinge a maioridade, por exemplo) a cota individual será revertida para os demais dependentes?
-          answer: Não. A cota individual da pensão cessará com a perda da qualidade de dependente.
-        - question: Ainda é possível haver reversão de cotas entre beneficiários de pensão?
-          answer: As cotas continuarão a ser reversíveis apenas para as pensões concedidas com data de óbito anterior à publicação da Emenda.
-        - question: Será possível acumular a pensão com aposentadoria?
-          answer: Poderá ser acumulada pensão por morte deixada por cônjuge ou companheiro com aposentadoria, até o valor de dois salários mínimos.  Se a totalidade dos benefícios ultrapassar o valor de dois salários mínimos, o beneficiário poderá optar pelo benefício mais vantajoso.
-        - question: Como ficam as situações em que o segurado já recebe uma pensão e já preencheu todos os requisitos para requerer a aposentadoria? Casos em que a acumulação ultrapassa dois salários mínimos, mas o direito já estava adquirido?
-          answer: A Reforma veda a acumulação de aposentadoria com pensão por morte quando a soma dos dois ultrapassar dois salários mínimos. Caso a pessoa já preencha todos os requisitos para a aposentadoria, mesmo que solicite o benefício após a publicação da Reforma, poderá acumular. No entanto, se apenas preencher os requisitos para a aposentadoria após a publicação da Reforma, caso a soma da pensão e da aposentadoria ultrapasse dois salários mínimos, não poderá acumular, podendo optar pelo benefício mais vantajoso.
-        - question: As acumulações já existentes serão revertidas?
-          answer: Não. Serão respeitadas as regras existentes antes da entrada em vigor da Emenda Constitucional.
-        - question: O cônjuge ou companheiro que trabalha poderá receber pensão por morte do segurado falecido junto com sua remuneração?
-          answer: Sim. As vedações referem-se à acumulação entre pensões por morte ou pensão e aposentadoria. Não há restrição ao recebimento conjunto de salário ou remuneração pelo trabalhador com a pensão por morte.
-        - question: Um filho menor de idade cujos pais eram segurados poderá receber duas pensões por morte?
-          answer: Sim. A vedação ao recebimento de duas pensões por morte alcança apenas o cônjuge ou companheiro do segurado falecido.
-        - question: Haverá mudança na duração da pensão por morte?
-          answer: >
-            Não. Serão mantidas as regras vigentes. O tempo de duração da pensão por morte e as condições de cessação de cada cota individual são estabelecidos conforme a idade do beneficiário na data de óbito do segurado, na forma da Lei de Benefícios do Regime Geral de Previdência Social.</br></br>
-            Atualmente, para o cônjuge ou companheiro a duração da pensão por morte varia de acordo com a idade do pensionista da seguinte forma:</br></br>
-            <table><tr><th>Idade do Pensionista</th><th>Duração da Pensão</th></tr><tr><td>Menos de 21 anos</td><td>3 anos</td></tr><tr><td>21 a 26 anos</td><td>6 anos</td></tr><tr><td>27 a 29 anos</td><td>10 anos</td></tr><tr><td>30 a 40 anos</td><td>15 anos</td></tr><tr><td>41 a 43 anos</td><td>20 anos</td></tr><tr><td>44 anos ou mais</td><td>vitalícia</td></tr></table>
-        - question: Considerando que o salário mínimo está garantido por lei, se um homem que contribuiu sobre o mínimo vier a falecer, a esposa dele recebe 50% do salário mínimo ou integral independente da quantidade de filhos?
-          answer: O benefício de pensão por morte será equivalente a uma cota familiar de 50% acrescida de cotas de 10% por dependente até o limite de 100%. A vinculação ao salário mínimo foi mantida no texto do Substitutivo. Assim, mesmo na concessão do benefício para até quatro dependentes, o valor do benefício não poderá ser inferior ao salário mínimo.
-        - question: Sou viúva, recebo pensão equivalente a três salário mínimos. Estou para me aposentar e vou receber dois salários mínimos, como fica minha situação?
-          answer: A PEC veda a acumulação de aposentadoria com pensão por morte, à exceção de que a soma dos dois não ultrapasse a dois salários mínimos. Caso a segurada já preencha todos os requisitos para a aposentadoria, mesmo que solicite o benefício após a publicação da PEC, poderá acumular. No entanto, se apenas preencher os requisitos para a aposentadoria após a publicação da PEC, e já receber pensão equivalente a três salários mínimos, não poderá acumular a aposentadoria, devendo optar pelo benefício mais vantajoso.
-        - question: Considerando que um casal de aposentados que recebam, cada um deles, um salário mínimo, quanto receberá a viúva/o em caso de falecimento de um deles? Poderá haver acumulação de pensão e aposentadoria? Qual valor?
-          answer: Sim. Poderá acumular a pensão e aposentadoria até a soma de dois salários mínimos.
-    - name: Benefício Assistencial
-      questions:
-        - question: Como fica o Benefício Assistencial de Prestação Continuada - BPC?
-          answer: O benefício assistencial será mantido para a pessoa com deficiência e para o idoso que atenda aos requisitos do programa.  No caso do idoso, a idade para acesso ao benefício passará, gradativamente, de 65 para 68 anos, a partir de 2020, com acréscimo de um ano a cada 2 anos.
-        - question: Essa alteração afetará a pessoa idosa que já possui 65 anos de idade?
-          answer: Não. O critério etário não será alterado para os idosos que já possuírem 65 anos de idade na data de publicação da Emenda.
-        - question: Haverá uma regra de transição para a concessão do benefício assistencial ao idoso?
-          answer: Sim. A progressão da idade de 65 para 68 anos será gradual, com o incremento de 1 ano de idade após o transcurso de 2 anos.
-    - name: Políticos
-      questions:
-        - question: Como fica a situação dos políticos? Algo mudou no novo texto? E para aqueles que não são servidores públicos?
-          answer: As mesmas regras aplicadas ao RGPS (servidores da iniciativa privada) serão aplicadas aos agentes políticos, caso não sejam servidores de cargos efetivos, que neste caso, continuarão vinculados aos regimes próprios de previdência social.  Ver regras para o Regime Próprio de Previdência Social
-- name: Regime Próprio de Previdência Social
-  initials: rpps
-  description: É o Regime de Previdência instituído por entidades públicas como Institutos de Previdência ou Fundos Previdenciários e de filiação obrigatória para os servidores públicos titulares de cargos efetivos da União, dos Estados, do Distrito Federal e dos Municípios.
-  topics:
-    - name: Servidores Públicos
-      questions:
-        - question: Os servidores públicos continuarão se aposentando pelo Regime Próprio (RPPS) ou todos passarão para o Regime Geral (RGPS)?
-          answer: >
-            Os RPPS continuam existindo e sendo responsáveis pelos benefícios de aposentadoria e pensão por morte dos servidores públicos titulares de cargos efetivos (concursados admitidos pelos regimes estatutários).</br></br>
-            Permanecem vinculados ao RGPS, os seguintes grupos de agentes públicos: ocupantes exclusivamente de cargo em comissão, admitidos para cargo temporário, os que exercem mandato eletivo e empregados públicos (concursados admitidos pelo regime celetista).</br></br>
-            Além desses, também são segurados do RGPS os servidores públicos titulares de cargos efetivos dos Municípios que não tenham RPPS instituído.
-        - question: Em que pontos as regras dos Regimes Próprios se igualaram às do Regime Geral?
-          answer: >
-            As regras do RPPS e do RGPS passam a convergir entre si nos seguintes aspectos:</br></br>
-            - Valor mínimo e máximo das remunerações de contribuição e de benefícios (a partir da instituição da previdência complementar).</br></br>
-            - Idade mínima para aposentadoria. Regra geral: 65 anos para homens e 62 anos para mulheres.</br></br>
-            - Tempo de contribuição mínimo para aposentadoria. Regra geral: 25 anos.</br></br>
-            - Forma de cálculo dos benefícios de aposentadoria e pensão.</br></br>
-            - Forma de reajuste dos benefícios de aposentadoria e pensão.</br></br>
-            - Regra de cálculo de aposentadoria por incapacidade permanente para o trabalho.</br></br>
-            - Hipóteses de aposentadorias especiais: deficientes e condições especiais que prejudiquem a saúde</br></br>
-            - Aplicação das mesmas condições de dependência para pensão e tempo de duração desse benefício.
-        - question: Servidores públicos do Judiciário e do Legislativo também fazem parte da Reforma?
-          answer: Todos os funcionários públicos federais (Executivo, Legislativo e Judiciário) fazem parte da Reforma.
-        - question: Os servidores de Estados e Municípios poderão ter regra de benefícios específicas?
-          answer: As regras de aposentadoria previstas no art. 40 são válidas para servidores dos Estados e Municípios, porém estes serão autorizados a editarem regras específicas em até 180 dias, desde que observem o equilíbrio financeiro e atuarial de seus RPPS.
-    - name: Idade Mínima
-      questions:
-        - question: As idades de 62 e 65 anos para aposentadoria voluntária e 75 anos para aposentadoria compulsória sofrerão alguma alteração futura?
-          answer: A reforma prevê a edição de lei estabelecendo um mecanismo de atualização automática dessas idades que terá como referência o aumento da expectativa de sobrevida da população brasileira aos 65 anos, conforme tabela para ambos os sexos apurada pelo IBGE.
-    - name: Direitos Adquiridos
-      questions:
-        - question: As alterações propostas trazem alguma mudança para o servidor que já implementou os requisitos para aposentadoria?
-          answer: Não. Todos os direitos adquiridos serão preservados. O servidor que já implementou os requisitos poderá se aposentar pelas regras antigas quando entender conveniente.
-        - question: O servidor que já implementou os requisitos para aposentadoria e começou a receber abono de permanência antes da reforma, poderá continuar trabalhando e ainda se aposentar nas regras antigas?
-          answer: Sim. A reforma respeitará todos os direitos já adquiridos.  O servidor que já completou os requisitos para aposentadoria e que recebe abono de permanência tem direito à aposentadoria e a reforma não altera essa condição. O abono continuará sendo pago até que o servidor decida se aposentar ou até completar 75 anos de idade, quando será aposentado compulsoriamente. Ao servidor com direito adquirido, que completar a idade para aposentadoria compulsória serão garantidas as regras de cálculo para a aposentadoria voluntária.
-        - question: Os Estados e Municípios ainda podem pagar abono de permanência?
-          answer: Sim. Os entes federativos poderão estabelecer critérios para o pagamento do abono de permanência ao servidor público que completar as exigências para aposentadoria depois da reforma e que permanecer em atividade.
-    - name: Regra Geral
-      questions:
-        - question: Como será a partir de agora a regra geral para aposentadoria no serviço público?
-          answer: >
-            A regra geral para a aposentadoria no serviço público para servidores de cargo efetivo - admitidos após a promulgação da Reforma obedecerá às mesmas condições estabelecidas para os trabalhadores do regime geral: idade mínima para aposentadoria de 65 anos, para homens, e 62 para mulheres com, no mínimo, 25 anos de tempo de contribuição.
-        - question: A quais servidores se aplicarão as regras permanentes da Constituição Federal (art. 40)?
-          answer: As regras permanentes serão aplicadas aos servidores titulares de cargo efetivo dos entes que possuem RPPS  e que ingressarem após a aprovação da reforma e aos que, tendo ingressado, anteriormente, não se enquadrarem nas regras de transição. Para os servidores cujo ingresso no serviço público ocorra depois da instituição da previdência complementar ou que, tendo ingressado antes, optem por esse regime, será aplicado o teto dos benefícios do RGPS para o valor dos benefícios do RPPS.
-        - question: Quais as principais mudanças referentes à aposentadoria do servidor público vinculado a RPPS?
-          answer: >
-            - Uniformização do tempo de contribuição e idade exigidos, com a elevação da idade mínima para 65 anos, no caso dos homens, e 62 anos, no caso das mulheres.</br></br>
-            - Aplicação obrigatória do teto de benefícios do RGPS, a partir da instituição da previdência complementar, também obrigatória.</br></br>
-            - Adoção de mesma regra de cálculo e reajustamento das aposentadorias do Regime Geral.</br></br>
-            - Possibilidade de acúmulo de aposentadoria e pensão por morte, até o limite total de 2 salários mínimos, mesma limitação estabelecida para o RGPS.</br></br>
-            - Estabelecimento de regras de transição para todos os atuais segurados do RPPS.
-        - question: Acabou a aposentadoria por idade do servidor?
-          answer: >
-            Com a reforma, passa a existir uma única modalidade de aposentadoria voluntária, que exigirá os requisitos de 65 anos de idade, para os homens, e 62 anos, para as mulheres. Além disso, serão necessários: 25 anos de contribuição, 10 anos no serviço público e 5 anos no cargo efetivo, tanto para os homens como para as mulheres. Ressalvam-se as regras diferenciadas das aposentadorias especiais de servidores com deficiência ou que exerçam atividades prejudiciais à saúde, e de policiais, que serão disciplinadas por leis complementares, e as aposentadorias dos professores.
-    - name: Regras de Transição
-      questions:
-        - question: Haverá alguma regra de transição?
-          answer: Sim. Todos os servidores que já tenham ingressado no serviço público até a publicação da Emenda da reforma - e que, portanto, já contribuam com o sistema - estarão incluídos na regra de transição.
-        - question: Quais são os requisitos a serem cumpridos pelos servidores para se aposentarem pela regra de transição?
-          answer: >
-            A regra de transição apresenta os seguintes requisitos para aposentadoria: idade de 60 anos (homem) ou 55 anos (mulher); tempo de contribuição de 35 anos (homem) ou 30 anos (mulher); 20 anos de serviço público; 5 anos no cargo efetivo; período adicional de contribuição (pedágio) equivalente a 30% do tempo que na data da publicação da Emenda faltar para atingir os 35/30 anos.</br></br>
-            Ao longo dos anos, a idade mínima estabelecida será acrescida de 1 ano a mais de idade a cada dois anos, para ambos os sexos, contados a partir de 2020. O objetivo da medida é que, futuramente, a regra de transição convirja para a regra geral, estabelecendo a mesma idade mínima de aposentadoria, de 62 anos para mulheres e 65 anos para os homens. A idade mínima de aposentadoria será definida quando o servidor cumprir todo o tempo de contribuição, incluindo o pedágio.
-    - name: Cálculo
-      questions:
-        - question: E como será calculado o valor das aposentadorias dos servidores?
-          answer: >
-            O valor da aposentadoria dos servidores efetivos corresponderá a 70% da média das suas contribuições quando o segurado atingir 65 anos de idade para o homem e 62 anos de idade para mulher e 25 anos de contribuição. </br></br>
-            Cada ano que superar os 25 anos de contribuição será acrescido de um percentual equivalente a 1,5% (do 26° ao 30° ano de contribuição); de 2,0% (do 31º ao 35° ano de contribuição); e, por fim, a cada ano que superar os 35 anos de contribuição será acrescido de 2,5% até o limite de 100%. </br></br>
-            Na prática, isso quer dizer que para a obtenção de 100% de sua média contributiva, o trabalhador precisará alcançar 40 anos de contribuição, o que representará 15 anos a mais do necessário para alcançar o benefício mínimo. O cálculo dos 15 anos de diferença entre o valor mínimo da aposentadoria (70%) e o máximo (100%) pode ser visualizado na tabela abaixo: </br></br>
-            <table><tr><th>Tempo de Contribuição</th><th>% da Média</th></tr><tr><td>25</td><td>70%</td></tr><tr><td>26</td><td>71,5%</td></tr><tr><td>27</td><td>73%</td></tr><tr><td>28</td><td>74,5%</td></tr><tr><td>29</td><td>76%</td></tr><tr><td>30</td><td>77,5%</td></tr><tr><td>31</td><td>79,5%</td></tr><tr><td>32</td><td>81,5%</td></tr><tr><td>33</td><td>83,5%</td></tr><tr><td>34</td><td>85,5%</td></tr><tr><td>35</td><td>87,5%</td></tr><tr><td>36</td><td>90%</td></tr><tr><td>37</td><td>92,5%</td></tr><tr><td>38</td><td>95%</td></tr><tr><td>39</td><td>97,5%</td></tr><tr><td>40</td><td>100%</td></tr></table>
-        - question: Como será calculada a média para o valor do benefício?
-          answer: O cálculo do benefício levará em conta a média simples de 100% das remunerações ou salários de contribuição, atualizados monetariamente.
-    - name: Contribuição
-      questions:
-        - question: A reforma muda as regras de contribuição dos servidores?
-          answer: Regra geral, não. Haverá uma mudança apenas quanto às contribuições incidentes sobre proventos e pensões, pois não haverá mais diferença na base de cálculo no caso de o beneficiário ser portador de doença incapacitante.
-    - name: Integralidade e Paridade
-      questions:
-          - question: Algum benefício ainda será concedido com integralidade e paridade pelos RPPS?
-            answer: >
-              Sim. As aposentadorias voluntárias dos servidores que se aposentarem com fundamento na nova regra de transição e que tenham ingressado em cargo efetivo no serviço público até 31/12/2003 poderão ser concedidas com integralidade (valor da aposentadoria equivalente à remuneração do último cargo ocupado no serviço público) e paridade (recebendo os mesmos reajustes dos servidores da ativa). No entanto, para ter acesso a esses benefícios, o servidor que possua esses pré-requisitos precisará se aposentar com, no mínimo, 62 anos de idade, no caso das mulheres, e 65 anos de idade, no caso dos homens. </br></br>
-              Caso o servidor faça a opção por se aposentar antes de completar as idades exigidas (62 para mulher e 65 para homem), terá acesso a proventos equivalentes a 100% da sua média de contribuição.
-          - question: Acabou a aposentadoria integral nos RPPS?
-            answer: Para os servidores que ingressarem no serviço público a partir da promulgação da reforma, sim.
-          - question: Os servidores ainda podem receber aposentadoria acima do teto do RGPS?
-            answer: Sim. Desde que seu ingresso no serviço público seja anterior à instituição da previdência complementar – o que no âmbito federal ocorreu em 2013 – e que não tenham aderido ao regime complementar.
-          - question: Sou servidor público, tenho 37 anos e meio de contribuição e 56 anos de idade e já posso pedir o abono permanência em 2017 e a aposentadoria integral com paridade e integralidade em 2018. Se a nova regra for aprovada tenho que esperar até os 65 anos para me aposentar com a integralidade e paridade?
-            answer: Sim. De acordo com o art. 2° do Substitutivo da PEC 287/2016, a integralidade e a paridade somente serão asseguradas aos servidores que completarem a idade de 65 anos, se homem ou 62, se mulher, em atividade, embora possam se aposentar ou receber o abono de permanência a partir de quando forem cumpridos a idade e o tempo mínimo previstos no mesmo artigo.
-          - question: Como fica a situação dos servidores públicos que entraram antes de 2003 e já possuem todos os requisitos para se aposentar, inclusive recebem abono de permanência, e já completaram as condições para se aposentar com a integralidade salarial e a paridade, direitos garantidos constitucionalmente?
-            answer: O art. 6° do substitutivo assegura a concessão, a qualquer tempo, dos benefícios para os quais o servidor adquiriu o direito até a publicação da Emenda. O parágrafo único garante o cálculo e reajustamento desses benefícios pelas regras mais favoráveis ao servidor ou a seus dependentes, o que inclui integralidade e paridade. Ao servidor que já recebe abono de permanência, será também garantido o pagamento desse benefício até a aposentadoria.
-          - question: Como fica a regra de transição para servidor público que ingressou antes de 2003?
-            answer: Existirá regra de transição para os servidores que ingressaram até 2003, porém essa será nos termos do art. 2° do Substitutivo da PEC 287/2016. Ou seja, embora o servidor possa se aposentar ou receber o abono de permanência a partir de quando forem cumpridos a idade e o tempo mínimo previstos, a integralidade e a paridade somente serão asseguradas aos servidores que completarem a idade de 65 anos, se homem ou 62, se mulher.
-          - question: Sou servidora pública que possuo 55 anos e 35 anos de contribuição. Para quem possui os meus requisitos poderá requerer a aposentadoria após a publicação da PEC sem ter prejuízo nos proventos? Poderei requerer de acordo com as regras atuais da aposentadoria ou tenho que me aposentar rapidamente para não pegar pedágios e 40 anos de contribuição?
-            answer: O art. 6° do Substitutivo da PEC 287/2016 assegura a concessão, a qualquer tempo, dos benefícios para os quais o servidor adquiriu o direito até a publicação da Emenda. O parágrafo único garante o cálculo e reajustamento desses benefícios pelas regras mais favoráveis ao servidor ou seus dependentes, o que inclui integralidade e paridade. Enquanto o servidor não se aposentar, haverá continuidade do pagamento do abono de permanência.
-          - question: Servidor público com 55 anos de idade e 35 de contribuição que já tenha completado os requisitos da regra atual está na regra de transição?
-            answer: O art. 6° do Substitutivo assegura a concessão, a qualquer tempo, dos benefícios para os quais o servidor adquiriu o direito à concessão até a publicação da Emenda. O parágrafo único garante o cálculo e reajustamento desses benefícios pelas regras mais favoráveis ao servidor ou seus dependentes, o que inclui integralidade e paridade. Enquanto o servidor não se aposentar, haverá continuidade do pagamento do abono de permanência.
-          - question: Sou servidora pública municipal, temos regime de previdência próprio, trabalho desde os 18 anos no serviço público, tenho 51 anos de idade e 33 de contribuição. Hoje já posso me aposentar sem paridade. Com a reforma terei que pagar pedágio para me aposentar?
-            answer: O art. 6° do substitutivo assegura a concessão, a qualquer tempo, dos benefícios para os quais for adquirido o direito à concessão até a publicação da Emenda. O parágrafo único garante o cálculo e reajustamento desses benefícios pelas regras mais favoráveis ao servidor ou seus dependentes, o que inclui integralidade e paridade. Enquanto isso, haverá continuidade do pagamento do abono de permanência.
-          - question: Sou servidor público federal, tenho 37 anos de contribuição e 58 anos de idade. Vou pagar pedágio? Vou receber meus proventos integrais?
-            answer: O pedágio somente será exigido de servidores que possuem menos de 35 anos de contribuição, se homem. O art. 6° do Substitutivo assegura a concessão, a qualquer tempo, dos benefícios para os quais for adquirido o direito à concessão até a publicação da Emenda. O parágrafo único garante o cálculo e reajustamento desses benefícios pelas regras mais favoráveis ao servidor ou seus dependentes, o que inclui a integralidade e paridade. Enquanto o servidor não se aposentar, haverá continuidade do pagamento do abono de permanência a que tiver adquirido o direito antes da Emenda.
-    - name: Previdência Complementar
-      questions:
-        - question: Como ficam as regras de previdência complementar para o servidor?
-          answer: >
-            A instituição do regime de previdência complementar e consequente fixação do limite máximo estabelecido para os benefícios do RGPS como teto dos benefícios a serem pagos por RPPS torna-se obrigatória, devendo ser cumprida pelos entes federativos no prazo máximo de 2 (dois) anos. Além disso, foi retirada a exigência de que o regime de previdência complementar precise ser operado por entidade fechada de previdência complementar de natureza pública, com a finalidade de possibilitar uma maior concorrência entre instituições aptas a ofertar planos de benefícios aos entes federativos.</br></br>
-            Porém, continua valendo a regra de que o limite do RGPS só alcança os servidores que ingressem no serviço público posteriormente à instituição do regime de previdência complementar - que no âmbito federal ocorreu em 2013, com a instituição da Funpresp - ou que ingressaram anteriormente, mas fizeram essa opção.</br></br>
-            Embora a adesão do servidor público na condição de participante do regime de previdência complementar seja facultativa, conforme previsto no art. 202 da Constituição, a incidência do limite máximo de benefícios do RGPS para os servidores que ingressarem depois da instituição da previdência complementar pelos entes federativos é obrigatória.
-        - question: Os servidores amparados pelo RPPS poderão ter complementação de aposentadoria?
-          answer: Todos os entes federativos que possuem Regime Próprio, inclusive Municípios, serão obrigados a instituir regime de previdência complementar para seus servidores e a limitar os benefícios do Regime Próprio ao teto de benefícios do Regime Geral, o que deverá acontecer em até 2 (dois) anos.
-        - question: Como fica o valor das aposentadorias dos servidores dos Estados e Municípios que ainda não têm previdência complementar?
-          answer: >
-            O cálculo do valor dos proventos seguirá as mesmas regras definidas pela reforma: garantia de 70% da média aos 25 anos de contribuição, a partir daí será acrescido 1,5% para cada ano que supere os 25 anos de tempo de contribuição, 2% para os anos que superem os 30 anos e 2,5% para os anos que superarem 35 anos de contribuição. O valor da aposentadoria alcançará 100% da média contributiva aos 40 anos de contribuição. A partir da instituição da previdência complementar (os Estados e Municípios têm um prazo de dois anos para isso), os benefícios não mais poderão ultrapassar o teto do RGPS.
-    - name: Reajuste dos Benefícios
-      questions:
-        - question: O reajuste das aposentadorias continua sendo igual ao dos servidores ativos?
-          answer: Não. Após a promulgação da reforma, os benefícios de aposentadoria serão reajustados para preservação de seu valor real, segundo os critérios estabelecidos para o RGPS. Somente na regra de transição será mantida a paridade de reajustamento com os servidores ativos, desde que o ingresso no serviço público tenha ocorrido até 31/12/2003 e que o servidor nesta condição faça a opção por se aposentar aos 65 anos de idade, se homem, e 62 anos, se mulher.
-    - name: Professores e Policiais
-      questions:
-        - question: Haverá alguma regra diferenciada para a aposentadoria de alguma categoria profissional?
-          answer: >
-            im, para professores e policiais.</br></br>
-            Professores da educação infantil, ensino fundamental e médio, de ambos os sexos, poderão se aposentar aos 60 anos de idade, desde que comprovem 25 anos de contribuição no exercício de funções de magistério, 10 anos de efetivo exercício de serviço público e 5 anos no cargo efetivo.</br></br>
-            Na regra de transição, os professores terão redução de 5 anos na idade exigida dos demais servidores, podendo se aposentar aos 50 anos, se mulher, e 55 anos, se homem, observados os demais requisitos. Essas idades mínimas serão atualizadas a partir de 2020, em um ano a cada dois anos, até chegarem aos 60 anos para ambos os sexos.</br></br>
-            Os policiais dos incisos I a IV do art. 144 (policiais federais, policiais rodoviários federais, policiais ferroviários federais e policiais civis) poderão se aposentar aos 55 anos de idade, para ambos os sexos, e 30 ou 35 anos de contribuição, se mulher ou homem, e 20 anos de atividade de natureza estritamente policial. O tempo de atividade policial será atualizado a partir de 2020, em um ano a cada dois anos, até atingir 25 anos.
-        - question: O que muda para o professor da rede pública municipal, estadual e federal?
-          answer: >
-            Para o Professor titular de cargo efetivo vinculado ao RPPS, independente de ser da rede municipal, estadual ou federal, que comprove exclusivamente tempo de efetivo exercício nas funções de magistério na educação infantil e no ensino fundamental e médio, a Reforma da Previdência está estabelecendo os seguintes requisitos para aposentadoria:</br></br>
-            a) 60 anos de idade;</br></br>
-            b) 25 anos de contribuição;</br></br>
-            c) 10 anos de efetivo exercício de serviço público; e</br></br>
-            d) 5 anos no cargo efetivo em que se der a aposentadoria.
-        - question: Como fica o cálculo de benefícios para o professor?
-          answer: Para a regra geral, o cálculo do benefício será equivalente a 70% da média das contribuições quando atingidos os requisitos mínimos. A cada ano de contribuição que ultrapassar os 25 anos, será acrescido de um percentual de 1,5% do 26º ao 30º ano, de 2,0% do 31º ao 35º ano e de 2,5% a partir do 36º ano de contribuição, até o limite de 100% da média.
-        - question: Como fica a regra de transição para o professor?
-          answer: >
-            Os professores que tiverem ingressado antes da publicação da nova emenda constitucional, poderão se aposentar pela regra de transição estabelecida com os seguintes requisitos: </br></br>
-            a) idade mínima de 50 anos para mulher e 55 anos para o homem;</br></br>
-            b) 25 anos de contribuição se mulher e 30 anos de contribuição para o homem;</br></br>
-            c) 10 anos de efetivo exercício de serviço público;</br></br>
-            d) 5 anos no cargo em que se der a aposentadoria;</br></br>
-            e) Pedágio de 30% do tempo que na data de publicação da emenda faltaria para completar o tempo de contribuição exigido.</br></br>
-            A idade mínima estabelecida na regra de transição terá um aumento de 1 ano a cada 2 anos a partir de 2020 até atingir 60 anos para ambos os sexos.
-        - question: Como fica a paridade e integralidade para quem ingressou até 21/12/2003?
-          answer: Para os professores que ingressaram no serviço público até 31/12/2003, o valor do benefício somente será concedido com integralidade e paridade para os professores que se aposentarem com 60 anos de idade. Quem se aposentar antes terá o valor do benefício equivalente a 100% da média. Para os servidores que ingressaram a partir de 01/01/2004, o valor do benefício será calculado de acordo com a regra geral (70% da média, acrescido de 1,5% do 26º ao 30º ano, 2,0% do 31º ao 35º ano e 2,5% do 36º ao 40º ano).
-    - name: Acúmulo de Aposentadorias
-      questions:
-        - question: É possível ter duas aposentadorias, uma da rede estadual (servidor público) e outra do INSS?
-          answer: Sim, em regimes diferenciados, ou no mesmo regime se tratar de cargos acumuláveis na forma da Constituição Federal. Desse modo, não há vedação de acumulação de uma aposentadoria paga pelo INSS e outra pelo Regime Próprio, caso preencha todos os requisitos em cada regime.
-        - question: Um servidor em cargo efetivo como segurado de RPPS e, além disso, com tempo de contribuição ao RGPS poderá receber aposentadoria nos dois regimes?
-          answer: Sim. Desde que sejam cumpridos os requisitos exigidos em ambos os regimes previdenciários.
-    - name: Aposentadoria por Incapacidade
-      questions:
-        - question: Como ficam as regras para a aposentadoria por incapacidade?
-          answer: >
-            Não haverá mais diferença de cálculo entre as aposentadorias por incapacidade permanente para o trabalho decorrentes de doença grave, contagiosa ou incurável e as decorrentes de outras doenças incapacitantes. Elas seguirão a regra de cálculo das demais aposentadorias, assegurado o piso de 70% da média quando o tempo de contribuição atingido for até o mínimo de 25 anos.</br></br>
-            Quando a incapacidade for decorrente de acidente em serviço ou doença profissional, os proventos serão correspondentes a 100% da média das remunerações.</br></br>
-            O servidor não será aposentado por incapacidade permanente para o trabalho se puder ser submetido a processo de readaptação funcional para exercício de outro cargo.
-    - name: Pensão por Morte
-      questions:
-        - question: Quais as principais mudanças referentes à pensão por morte de servidor público vinculado a RPPS com a reforma?
-          answer: >
-            - Criação de sistema de cotas, com previsão de valor inicial de pensão diferenciado conforme o número de dependentes. </br></br>
-            - Vinculação do valor do benefício ao salário-mínimo. </br></br>
-            - Adoção de mesma regra de cálculo e reajustamento do RGPS. </br></br>
-            - Possibilidade de acúmulo de pensão por morte e aposentadoria, até o limite total de 2 salários mínimos, mesma limitação estabelecida para o RGPS. Mantem-se a possibilidade, para os demais casos, de opção pelo benefício mais vantajoso. </br></br>
-            - Vedação do acúmulo de duas pensões por morte, pelo beneficiário cônjuge ou companheiro, oriundas de qualquer regime previdenciário. </br></br>
-            - Harmonização do rol de dependentes e das condições de dependência entre todos os regimes de previdência. </br></br>
-            - Irreversibilidade das cotas individuais de pensão.
-        - question: As regras de pagamento de pensão por morte a dependentes de servidores que faleceram antes da reforma mudaram?
-          answer: Não. É mantido o direito adquirido ao recebimento da pensão por morte segundo as regras vigentes. Apenas as pensões decorrentes de óbito ocorrido depois da publicação da Emenda Constitucional serão calculadas pelas novas regras.
-        - question: Ainda é possível haver reversão de cotas entre beneficiários de pensão?
-          answer: Se o óbito aconteceu antes da data de promulgação da Emenda as cotas de pensão continuarão a ser reversíveis, conforme a legislação atual.
-        - question: Quais as mudanças ocorridas nas regras de cálculo da pensão por morte?
-          answer: >
-            O valor básico do benefício da pensão será de 50% (cota familiar) dos proventos do servidor aposentado ou dos proventos a que teria direito o servidor ativo se estivesse aposentado por incapacidade permanente. Esse valor será acrescentado de 10 pontos percentuais (cota individual) para cada dependente, até o limite de 100%, e estará limitado ao limite máximo de benefícios do RGPS. No entanto, este limite não é válido para pensões decorrentes de morte de servidor que tenha ingressado no serviço público antes da instituição da previdência complementar.</br></br>
-            Então, o valor mínimo da pensão será de 60%, no caso de haver apenas um dependente, e poderá chegar a 100% quando houver cinco ou mais dependentes. As cotas individuais de 10% da pensão serão extintas quando o beneficiário deixar de ser dependente (quando os filhos atingirem a idade limite para recebimento, por exemplo).
-        - question: A pensão por morte de servidor que ingressou antes da instituição da previdência complementar e que venha a falecer depois da reforma estará limitada ao teto do RGPS?
-          answer: Não. A PEC prevê, nesses casos, uma regra de transição, que acresce em 70% o valor de proventos ou remuneração recebidos na data do óbito que ultrapassem o limite máximo de benefícios do RGPS, respeitada a aplicação do novo sistema de cota familiar e cotas individuais na pensão.
-        - question: Será possível acumular a pensão com outro benefício previdenciário?
-          answer: Será permitida somente a acumulação de pensão com aposentadoria, até o limite de dois salários mínimos. Mantendo-se a possibilidade, nos demais casos, de opção pelo benefício mais vantajoso.
-        - question: A duração da pensão por morte continuará sendo vitalícia em qualquer situação?
-          answer: >
-            Não. O tempo de duração da pensão por morte devida ao cônjuge será variável, conforme sua idade na data de óbito do servidor, aplicando-se a mesma regra implantada no RGPS.</br></br>
-            <table><tr><th>Idade do Cônjuge</th><th>Duração da Pensão</th></tr><tr><td>Menos de 21 anos</td><td>3 anos</td></tr><tr><td>21 a 26 anos</td><td>6 anos</td></tr><tr><td>27 a 29 anos</td><td>10 anos</td></tr><tr><td>30 a 40 anos</td><td>15 anos</td></tr><tr><td>41 a 43 anos</td><td>20 anos</td></tr><tr><td>44 anos ou mais</td><td>vitalícia</td></tr></table>
-        - question: O cônjuge ou companheiro que trabalha poderá receber pensão por morte de servidor falecido junto com sua remuneração?
-          answer: Sim. A vedação até o limite de dois salários mínimos refere-se à acumulação de pensão morte e aposentadoria. Não há restrição ao recebimento conjunto de salário ou remuneração pelo trabalhador ou servidor em atividade, com a pensão por morte.
-        - question: Um filho menor de idade cujos pais eram servidores públicos poderá receber duas pensões por morte?
-          answer: Sim, pode. A vedação ao recebimento de duas pensões por morte alcança apenas o cônjuge ou companheiro do servidor falecido.
-        - question: Sou servidora pública e recebo pensão por morte. Já tenho direito a aposentadoria, porém gostaria de continuar trabalhando. Se me aposentar após a reforma perco direito à pensão, apesar de já ter direito adquirido antes da reforma?
-          answer: Segundo o art. 20 do Substitutivo, será permitido o pagamento acumulado de pensão e aposentadoria quando o servidor ou dependente adquirir o direito a receber antes da Emenda, ainda que continue em atividade depois dela.
-    - name: Receitas
-      questions:
-        - question: O fundo que custeia as aposentadorias e pensões dos servidores públicos é separado?
-          answer: O art. 249 da Constituição Federal e o art. 6° da Lei n° 9.717/1998 permite a criação de fundos separados pela União, Estados, Distrito Federal e Municípios com o objetivo de assegurar recursos para o pagamento de proventos de aposentadoria e pensões. Quase todos os entes federativos que instituíram RPPS criaram fundos dessa natureza e muitos deles possuem superávit financeiro (geralmente os municipais), mas quase todos têm déficit atuarial. No caso do RPPS da União, o art. 8° da Lei n° 10.887/2004 prevê a contabilização das contribuições previdenciárias separadas das contas do Tesouro, mas esse fundo é deficitário e as insuficiências financeiras mensais decorrentes do pagamento de benefícios previdenciários são cobertas pela União.
+        - question: Deficientes de baixa renda continuarão com direito a um benefício assistencial mesmo sem nunca terem contribuído, com reajuste pelo mesmo percentual de aumento do salário mínimo?
+          answer: Sim. Estes terão seu direito ao benefício preservado. No caso do idoso, a idade para acesso ao benefício passará, gradativamente, de 65 para 68 anos, a partir de 2020, com acréscimo de um ano a cada dois anos.

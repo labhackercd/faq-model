@@ -1,30 +1,24 @@
-.topbar {
-  display: flex;
-  flex-direction: column;
+.edem-logo {
+  height: 2.5em;
 }
 
-.topbar__header {
-  background-color: #004432;
+.edem-logo-text {
+  height: 1.5em;
+  margin-left: 12px;
 }
 
-.topbar__header-container {
+.edem-bar {
+  height: 64px;
+  font-size: 16px;
+  padding: 0 40px;
   display: flex;
   align-items: center;
-  padding: 0.5em 1em;
-
-  @media screen and (min-width: 860px) {
-    width: 860px;
-    margin: 0 auto;
-  }
+  background: linear-gradient(45deg, #0d2625 0%, #134836 100%);
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 1px 4px rgba(0, 0, 0, 0.23);
+  position: relative;
 }
 
-.topbar__logo {
-  height: 2.2em;
-  margin-right: 1em;
-}
-
-.topbar__title {
-  color: white;
-  font-weight: 600;
-  text-transform: uppercase;
+.edem-logo-wrapper {
+  display: flex;
+  align-items: center;
 }

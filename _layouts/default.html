@@ -9,26 +9,17 @@
   <link rel="stylesheet" href="{{site.baseurl}}/css/app.css">
 </head>
 <body>
-  <div class="topbar">
-    <header class="topbar__header">
-      <div class="topbar__header-container">
-        <img class="topbar__logo" src="{{site.baseurl}}/assets/img/logo.png" alt="">
-        <span class="topbar__title">Perguntas Frequentes</span>
-      </div>
-    </header>
+  <div class="edem-bar">
+    <a class="edem-logo-wrapper" href="https://edemocracia.camara.leg.br">
+      <img class="edem-logo" src="https://edemocracia.camara.leg.br/previdencia/assets/images/logo-edem.png" alt="Logo do e-Democracia">
+      <img class="edem-logo-text" src="https://edemocracia.camara.leg.br/previdencia/assets/images/logo-edem-text.png" alt="e-Democracia">
+    </a>
 
-    <div class="navigation">
-      <div class="navigation-container">
-        <div class="navigation__title-container">
-          <span class="navigation__title">Categorias</span>
-        </div>
-        <ul class="navigation__list">
-          {% for category in site.data.questions %}
-            <li class="navigation__item"><a class="navigation__link" href="#{{category.initials|slugify}}">{{category.name}}</a></li>
-          {% endfor %}
-        </ul>
-      </div>
-    </div>
+    <a class="info-banner" href="https://edemocracia.camara.leg.br/previdencia">
+      <img class="info-banner__image" src="https://edemocracia.camara.leg.br/previdencia/assets/images/logo-site.png" alt="Dois personagens estilizados ao lado um do outro, um mais novo e um mais velho." >
+      <p class="info-banner__text">Participe da Reforma da Previdência!</p>
+      <img src="https://edemocracia.camara.leg.br/previdencia/assets/images/pip.png" alt="Seguir link" class="info-banner__pip">
+    </a>
   </div>
 
   {% for category in site.data.questions %}

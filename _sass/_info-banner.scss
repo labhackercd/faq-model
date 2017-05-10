@@ -1,0 +1,84 @@
+ @import url('https://fonts.googleapis.com/css?family=Passion+One');
+
+@keyframes slide-down {
+  0% {transform: translate(50%, -100%);}
+  75% {transform: translate(50%, -100%);}
+  100% {transform: translate(50%, 0);}
+}
+
+.info-banner {
+  align-items: center;
+  animation: slide-down 2s cubic-bezier(0.55, 0, 0.1, 1);
+  background-color: #ffd853;
+  background: radial-gradient(circle at left 15% top 50%, #ffdc70 20%, #ffd853 0);
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 1px 4px rgba(0,0,0,0.23);
+  display: flex;
+  height: 70px;
+  justify-content: space-between;
+  overflow: hidden;
+  padding: 8px 32px;
+  position: absolute;
+  right: 50%;
+  text-decoration: none;
+  transform: translate(50%, 0);
+  width: 640px;
+  transition: transform 0.6s 0.5s cubic-bezier(0.55, 0, 0.1, 1), width 0.5s cubic-bezier(0.55, 0, 0.1, 1);
+}
+
+.headroom--unpinned .info-banner {
+  transform: translate(50%, -100%) !important;
+  transition: transform 0s 0.2s cubic-bezier(0.55, 0, 0.1, 1), width 0.5s cubic-bezier(0.55, 0, 0.1, 1);
+}
+
+.info-banner__image {
+  height: 190%;
+  margin-top: 16px;
+}
+
+.info-banner__text {
+  color: #6c4b0c;
+  font-family: 'Passion One','Open Sans', sans-serif;
+  font-size: 32px;
+  line-height: 26px;
+  margin: 0 1em;
+  text-align: center;
+}
+
+.info-banner__pip {
+  height: 56px;
+}
+
+@media (min-width: 640px) and (max-width: 1199px) {
+  .info-banner {
+    width: 100%;
+    transform: translate(50%, 67px);
+    border-radius: 0;
+  }
+
+  .faq {
+    padding-top: 84px !important;
+  }
+}
+
+@media screen and (max-width: 639px) {
+  .info-banner {
+    width: 100%;
+    transform: translate(50%, 67px);
+    border-radius: 0;
+  }
+
+  .info-banner__image {
+    display: none;
+  }
+
+  .info-banner__text {
+    font-size: 20px;
+    line-height: 18px;
+  }
+
+  .faq {
+    padding-top: 84px !important;
+  }
+}
